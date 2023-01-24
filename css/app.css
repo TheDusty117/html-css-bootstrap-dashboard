@@ -91,3 +91,7 @@ div[class^="col-"] {
 .classi{
   min-height: 600px;
 }
+
+.todo{
+  min-height: 350px;
+}
