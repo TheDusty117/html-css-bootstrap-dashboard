@@ -39,11 +39,11 @@ main{
   color: white;
   width: 100vw;
 }
-
+/* 
 .navbar {
   background-color: var(--black);
   width: 230px;
   flex-shrink: 0;
   display: flex;
   overflow: hidden;
-}
+} */
