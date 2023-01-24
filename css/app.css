@@ -87,3 +87,7 @@ div[class^="col-"] {
 .col-dx{
   min-height: 400px;
 }
+
+.classi{
+  min-height: 600px;
+}
