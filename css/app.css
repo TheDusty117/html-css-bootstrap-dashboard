@@ -7,7 +7,10 @@ img{
 }
 
 
-
+:root{
+  --darkblue:#051E34;
+  --lightblue:#1B72E8;
+}
 
 
 ul,
@@ -29,7 +32,7 @@ header{
 }
 
 .navbar-vertical{
-  background-color: darkblue;
+  background-color: var(--darkblue);
   width: 150px;
   overflow: hidden;
   height: 100vh;
@@ -63,3 +66,15 @@ main{
   display: flex;
   overflow: hidden;
 } */
+
+
+div[class^="col-"] {
+  border: 2px solid salmon; */
+  min-height: 20px;
+  padding: 30px;
+}
+
+.bluebar{
+  background-color: var(--lightblue);
+  min-height: 100px;
+}
