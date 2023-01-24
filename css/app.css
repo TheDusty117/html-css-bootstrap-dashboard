@@ -39,7 +39,6 @@ header{
   background-color: var(--darkblue);
   width: 150px;
   overflow: hidden;
-  height: 100vh;
   color: white;
 }
 
@@ -51,7 +50,8 @@ header{
 
 main{
   overflow: hidden;
-  min-height: 100px;
+  /* max-height: calc(100% - 70px); */
+  height: calc(100vh - 70px);
 }
 
 
