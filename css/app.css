@@ -203,3 +203,24 @@ div[class^="col-"] {
 .major-info{
   font-size: 25px;
 }
+
+
+
+@media (min-width: 1200px) {
+  .new-student{
+    text-align: end;
+  }
+}
+
+
+/* CARD CUSTOMIZZAZIONE *******************************/
+
+/* CARD PROSSIME CLASSI */
+
+.prossime-classi{
+  
+}
+
+.card-title{
+  font-size: 25px;
+}
