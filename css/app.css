@@ -73,8 +73,8 @@ main{
 
 
 div[class^="col-"] {
-  border: 2px solid salmon; */
-  min-height: 20px;
+  /* border: 2px solid salmon; */
+  /* min-height: 20px; */ 
   /* padding: 5px */
 }
 
@@ -254,3 +254,15 @@ div[class^="col-"] {
   color: var(--lightblue);
   font-weight: 600;
 }
+
+
+/* OFFCANVAS CUSTOMIZZAZIONE **************************/
+
+@media (min-width: 1200){
+
+  .offcanvas_custom{
+    width: ;
+  }
+
+}
+
