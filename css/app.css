@@ -43,7 +43,7 @@ header{
 }
 
 .content{
-  background-color: bisque;
+  /* background-color: bisque; */
   flex-grow: 1;
   overflow-y: auto;
 }
@@ -93,23 +93,30 @@ div[class^="col-"] {
 }
 
 .card-classi{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   min-height: 540px;
+  margin: 10px;
 }
 
 .card-faq{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   min-height: 250px;
+  margin: 10px;
+
 }
 
 .card-todo{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   min-height: 200px;
+  margin: 10px;
+
 }
 
 .card-grafico{
-  border: 2px solid black;
+  /* border: 2px solid black; */
   min-height: 650px;
+  margin: 10px;
+
 }
 
 
