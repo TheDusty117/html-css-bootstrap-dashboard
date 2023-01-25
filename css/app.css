@@ -160,7 +160,7 @@ div[class^="col-"] {
 
 /* MEDIAQUERY NAVBAR BLU LATERALE */
 
-@media (max-width: 767px) {
+@media (max-width: 1199px) {
   .navbar-vertical{
     width: 68px;
   }
@@ -244,4 +244,13 @@ div[class^="col-"] {
 
 .table-classes{
   /* text-align: center; */
+}
+
+
+/* CARD GRAFICO */
+
+.card-link{
+  text-decoration: underline;
+  color: var(--lightblue);
+  font-weight: 600;
 }
