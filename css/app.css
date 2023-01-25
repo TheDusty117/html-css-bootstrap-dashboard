@@ -44,9 +44,11 @@ header{
 
 .content{
   /* background-color: bisque; */
-  flex-grow: 1;
   overflow-y: auto;
+  width: calc(100% - 150px);
 }
+
+
 
 main{
   overflow: hidden;
@@ -121,6 +123,12 @@ div[class^="col-"] {
 
 
 
+
+.content-custom{
+  width: ;
+}
+
+
 /* NAVBAR ORIZZONTALE CUSTOMIZZAZIONE *********************/
 
 .navbar_horizontal{
@@ -172,6 +180,11 @@ div[class^="col-"] {
     width: 68px;
   }
   
+  .content{
+
+    width: calc(100% - 68px);
+  }
+
   .home-list> li{
     padding: 0;
     text-align: center;
