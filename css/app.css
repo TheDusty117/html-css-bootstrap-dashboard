@@ -75,7 +75,7 @@ main{
 div[class^="col-"] {
   border: 2px solid salmon; */
   min-height: 20px;
-  padding: 10px;
+  /* padding: 5px */
 }
 
 .bluebar{
@@ -114,7 +114,7 @@ div[class^="col-"] {
 
 
 
-/* NAVBAR ORIZZONTALE CUSTOMIZZAZIONE */
+/* NAVBAR ORIZZONTALE CUSTOMIZZAZIONE *********************/
 
 .navbar_horizontal{
   height: 70px;
@@ -130,7 +130,32 @@ div[class^="col-"] {
   padding-right: 20px;
 }
 
+.home-list {
+  margin-top: 20px;
+}
 
+
+
+
+
+
+/* NAVBAR VERTICALE CUSTOMIZZAZIONE **********************/
+
+
+
+.col-home,
+.col-settings{
+  font-size: 18px;
+}
+
+.home-list> li {
+  padding: 6px 15px 6px 30px;
+}
+
+.settings-list> li {
+  padding: 6px 15px 6px 30px;
+
+}
 
 
 /* MEDIAQUERY NAVBAR BLU LATERALE */
@@ -140,6 +165,41 @@ div[class^="col-"] {
     width: 68px;
   }
   
+  .home-list> li{
+    padding: 0;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+  .settings-list> li{
+    padding: 0;
+    text-align: center;
+    padding: 10px 0px;
+  }
+
+
+
+  .home,
+  .stats,
+  .signal,
+  .admin {
+    display: none;
+  }
+
 }
 
 
+
+/* BLUEBAR CUSTOMIZZAZIONE ***************************/
+
+.bluebar{
+  color: white;
+}
+
+.text-bg-darkblue{
+  background-color: #165BBA;
+}
+
+.major-info{
+  font-size: 25px;
+}

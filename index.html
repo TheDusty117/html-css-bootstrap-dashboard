@@ -79,30 +79,34 @@
     <section class="navbar-vertical d-flex flex-column">
       
       <div class="col-home flex-grow-1">
-        <ul class="d-flex flex-column ">
-          <li>
+        <ul class="d-flex flex-column home-list">
+          <li class="">
             <a href="#">
-              <i class="fa-solid fa-house"></i>Home
+              <i class="fa-solid fa-house"></i>
+              <span class="home">Home</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa-solid fa-chart-simple"></i>Stats
+              <i class="fa-solid fa-chart-simple"></i>
+              <span class="stats">Stats</span>
             </a>
           </li>
           <li>
             <a href="#">
-              <i class="fa-solid fa-signal"></i>Signal
+              <i class="fa-solid fa-signal"></i>
+              <span class="signal">Signal</span>
             </a>
           </li>
         </ul>
       </div>
 
       <div class="col-settings">
-        <ul>
+        <ul class="settings-list">
           <li>
             <a href="#">
-              <i class="fa-solid fa-gear"></i>Admin
+              <i class="fa-solid fa-gear"></i>
+              <span class="admin">Admin</span>
             </a>
           </li>
         </ul>
@@ -122,17 +126,49 @@
             <div class="row">
 
               <!-- colonna sx -->
-              <div class="col-12 col-md-4 col-xl-4">
+              <div class="col-12 col-md-4 col-xl-4 p-3">
+                <div>
+                  <span class="major-info">Boolean</span>
+                  <span class="badge rounded-pill text-bg-darkblue">
+                    Piano blaze
+                  </span>
+                </div>
 
+                <div>
+                  <span class="badge rounded-pill text-bg-darkblue">
+                    3 app
+                  </span>
+                  <span>
+                    >>
+                  </span>
+                  <span class="badge rounded-pill text-bg-darkblue">
+                    +
+                  </span>
+                  <!-- <span class="badge rounded-pill text-bg-darkblue">
+                    Primary
+                  </span>
+                  <span class="badge rounded-pill text-bg-darkblue">
+                    Primary
+                  </span> -->
+                </div>
               </div>
 
               <!-- colonna centro -->
-              <div class="col-12 col-md-4 col-xl-4">
-
+              <div class="col-12 col-md-4 col-xl-4 p-3">
+                <span>
+                  Studenti online negli ultimi 30 giorni
+                </span>
+                <h2 class="major-info">125</h2>
               </div>
 
               <!-- colonna dx -->
-              <div class="col-12 col-md-4 col-xl-3">
+              <div class="col-12 col-md-4 col-xl-3 p-3 text-end">
+                <span class="me-3">
+                  Nuovo studente
+                </span>
+                <button type="button" class="btn btn-outline-light">
+                  +
+                </button>
 
               </div>
             </div>
