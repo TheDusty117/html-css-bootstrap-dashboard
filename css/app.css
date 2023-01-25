@@ -75,7 +75,7 @@ main{
 div[class^="col-"] {
   border: 2px solid salmon; */
   min-height: 20px;
-  padding: 30px;
+  padding: 10px;
 }
 
 .bluebar{
@@ -111,3 +111,35 @@ div[class^="col-"] {
   border: 2px solid black;
   min-height: 650px;
 }
+
+
+
+/* NAVBAR ORIZZONTALE CUSTOMIZZAZIONE */
+
+.navbar_horizontal{
+  height: 70px;
+}
+
+.fa-bell{
+  color: #FF8F00;
+}
+
+.btn-secondary{
+  background-color: white;
+  border: 0px;
+  padding-right: 20px;
+}
+
+
+
+
+/* MEDIAQUERY NAVBAR BLU LATERALE */
+
+@media (max-width: 767px) {
+  .navbar-vertical{
+    width: 68px;
+  }
+  
+}
+
+
