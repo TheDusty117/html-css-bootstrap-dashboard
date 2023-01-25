@@ -226,9 +226,18 @@ div[class^="col-"] {
 }
 
 .custom-spacing> span{
-  padding: 0px 20px;
+  padding: 0px 30px;
 }
 
-.custom-spacing2> span{
-  padding: 0px 20px;
+/* .custom-spacing2> span{
+  padding: 0px 30px;
+} */
+
+.status{}
+
+.fa-code{
+  color: white;
+  background-color: #F26551;
+  border: 7px solid #F26551;
+  border-radius: 999px;
 }
