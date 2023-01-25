@@ -241,3 +241,7 @@ div[class^="col-"] {
   border: 7px solid #F26551;
   border-radius: 999px;
 }
+
+.table-classes{
+  text-align: center;
+}
